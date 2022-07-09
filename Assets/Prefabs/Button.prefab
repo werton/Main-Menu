@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6743252578481817858}
   - component: {fileID: 6743252578481817859}
   - component: {fileID: 6743252578481817884}
+  - component: {fileID: -6612829098823398559}
   - component: {fileID: 6743252578481817886}
   m_Layer: 5
   m_Name: Button
@@ -102,7 +103,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -159,7 +160,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c26f1d04297ebe0478e7c843a2f19882, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -243,6 +244,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-6612829098823398559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6743252578481817857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c28e2bccfa7b3a34e91da7846cf60bc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetColor: {r: 0.6415094, g: 0, b: 0, a: 1}
+  _duration: 2
 --- !u!114 &6743252578481817886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,8 +270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3696aadb4ad53b48853e18fa96bc0ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _shakeDuration: 0.7
-  _shakeStrength: 50
+  _shakeDuration: 0.6
+  _shakeStrength: 40
   _shakeCicles: 25
   _fadeOut: 1
 --- !u!1 &6743252578729181357

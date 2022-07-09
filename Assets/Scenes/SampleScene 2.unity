@@ -872,5 +872,9 @@ PrefabInstance:
       propertyPath: m_Colors.m_HighlightedColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6743252578729181359, guid: 05f9fa609ce9490468d3285a6b6233c2, type: 3}
+      propertyPath: m_text
+      value: PLAY
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05f9fa609ce9490468d3285a6b6233c2, type: 3}
