@@ -35,7 +35,7 @@ public class ColorChanger : MonoBehaviour
 
         Debug.Log("sdf");
 
-        _button.GetComponentInChildren<Text>().color = Color.white;
+        _button.animator.SetTrigger("clicked");
         yield break;
     }
 }
